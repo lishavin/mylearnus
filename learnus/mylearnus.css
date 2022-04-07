@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap')
+
 * {
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -15,7 +17,6 @@ nav {
     padding:0;
     position:sticky;
     top:0;
-    z-index: 2;
 }
 
 .nav-button {
@@ -176,7 +177,6 @@ nav {
     position:absolute;
     left:5%;
     right:5%;
-    z-index: 1;
 }
 
 .search-text {
@@ -218,14 +218,14 @@ nav {
     border:1px solid #2b2b2b;
 }
 
-.mainbox1 {
+.mainbox {
     border:0 solid white;
     width:1200px;
     padding:0;
 }
 
 .hot {
-    padding-left:100px;
+    padding-left:200px;
     padding-top:100px;
     padding-bottom:0;
     margin-bottom:0;
@@ -252,45 +252,28 @@ nav {
 
 .desc {
     font-size:12px;
-    padding:5px;
-    border-top:1px solid darkgray;
-    border-bottom: 1px solid darkgray;
-}
-
-.desc1 {
     color:darkgray;
-    font-weight:bold;
 }
 
-.desc2 {
-    color:black;
+.title {
     font-weight:bolder;
-    font-size:16px;
-    padding-bottom:10px;
+}
+
+.recruit {
+    background-color: #edf0f5;
+    padding:0;
+    margin:0;
+}
+
+.recruit-on {
+    font-weight:bold;
+    font-size:14px;
 }
 
 .due {
-    background-color: #edf0f5;
-    padding:10px;
-    margin:0;
-}
-
-.due1 {
-    font-weight:bold;
-    font-size:14px;
-}
-
-.due2 {
     color:gray;
     font-size:14px;
     font-weight:bolder;
-}
-
-.mainbox2 {
-    background-color: #edf0f5;
-    margin:0;
-    padding-left:100px;
-    padding-top:50px;
 }
 
 footer {
